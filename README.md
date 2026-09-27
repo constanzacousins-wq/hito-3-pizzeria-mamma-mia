@@ -1,46 +1,42 @@
-# Hito 2 - Pizzería Mamma Mia 🍕
+# Hito 3 - Pizzería Mamma Mia 🍕
 
 Proyecto desarrollado como parte del módulo de React del Bootcamp Full Stack JavaScript de Desafío Latam.
 
 ## Descripción
 
-En este hito se trabaja el manejo de estados y eventos en React mediante formularios de registro e inicio de sesión.
+En este hito se trabaja la renderización dinámica de componentes utilizando arreglos, props y métodos de JavaScript.
+
+Además, se implementa un carrito de compras utilizando estado en React.
 
 ## Aprendizajes aplicados
 
-- Uso de `useState`
-- Manejo de eventos con `onChange`
-- Validación de formularios
-- Uso de `onSubmit`
-- Uso de `preventDefault`
-- Validaciones de campos obligatorios
-- Validación de longitud de contraseña
-- Confirmación de contraseña
+- Renderización dinámica con `.map()`
+- Uso de la propiedad `key`
+- Paso de información mediante props
+- Renderización de listas de ingredientes
+- Manejo de arreglos con `useState`
+- Aumento y disminución de cantidades
+- Eliminación de productos del carrito
+- Cálculo dinámico del total con `.reduce()`
 
 ## Componentes principales
 
 - Navbar
-- Register
+- Home
+- CardPizza
+- Cart
 - Login
+- Register
 - Footer
 
-## Requerimientos del Hito 2
+## Funcionalidades
 
-### Registro
-
-- Email
-- Contraseña
-- Confirmar contraseña
-- Validación de campos obligatorios
-- Contraseña de mínimo 6 caracteres
-- Contraseñas coincidentes
-
-### Login
-
-- Email
-- Contraseña
-- Validación de campos obligatorios
-- Contraseña de mínimo 6 caracteres
+- Generación automática de tarjetas de pizzas desde `pizzas.js`
+- Renderizado dinámico de ingredientes
+- Carrito de compras
+- Botones para aumentar y disminuir productos
+- Eliminación de pizzas cuando su cantidad llega a cero
+- Cálculo automático del total
 
 ## Tecnologías utilizadas
 
